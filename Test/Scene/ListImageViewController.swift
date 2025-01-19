@@ -15,15 +15,19 @@ class ListImageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTable()
-        mapData()
+//        mapData()
+        
+        list.append(ImageDataModel(id: "1", author: "Meow", width: 100, height: 100, url: "cat1", dowloadUrl: "cat1"))
+        list.append(ImageDataModel(id: "2", author: "Meow Meow", width: 100, height: 100, url: "cat2", dowloadUrl: "cat2"))
+        list.append(ImageDataModel(id: "3", author: "Meow Meow Meow", width: 100, height: 100, url: "cat3", dowloadUrl: "cat3"))
     }
 
-    private func mapData() {
-        if let jsonData = jsonString.data(using: .utf8) {
-            guard let photos = try? JSONDecoder().decode([ImageDataModel].self, from: jsonData) else { return print("error")}
-            list = photos
-        }
-    }
+//    private func mapData() {
+//        if let jsonData = jsonString.data(using: .utf8) {
+//            guard let photos = try? JSONDecoder().decode([ImageDataModel].self, from: jsonData) else { return print("error")}
+//            list = photos
+//        }
+//    }
 
     private func setupTable() {
         tableView.register(UINib(nibName: "ImageDataTableViewCell", bundle: .main), forCellReuseIdentifier: "ImageDataTableViewCell")
