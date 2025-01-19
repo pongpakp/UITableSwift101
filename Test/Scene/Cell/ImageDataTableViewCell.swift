@@ -8,9 +8,10 @@
 import UIKit
 
 class ImageDataTableViewCell: UITableViewCell {
-    @IBOutlet var bgImage: UIImageView!
-    @IBOutlet var author: UILabel!
-
+    @IBOutlet weak var bgImage: UIImageView!
+    @IBOutlet weak var author: UILabel!
+    @IBOutlet weak var gradientView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -25,5 +26,6 @@ class ImageDataTableViewCell: UITableViewCell {
     func setDataImage(data: ImageDataModel) {
         bgImage.image = UIImage(named: data.url)
         author.text = data.author
+        gradientView.applyGradient(colorArray: [UIColor.clear.cgColor, UIColor.black.withAlphaComponent(0.8).cgColor])
     }
 }

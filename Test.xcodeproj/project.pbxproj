@@ -19,6 +19,7 @@
 		3CB5417B2D3AD83D0024F80E /* ListImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5416C2D3AD83D0024F80E /* ListImageViewController.swift */; };
 		3CB5417C2D3AD83D0024F80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5416E2D3AD83D0024F80E /* SceneDelegate.swift */; };
 		3CB5417D2D3AD83D0024F80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5416F2D3AD83D0024F80E /* ViewController.swift */; };
+		3CC347052D3C9EA400FC18BA /* Extension + View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC347042D3C9E9C00FC18BA /* Extension + View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		3CB5416D2D3AD83D0024F80E /* ListImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListImageViewController.xib; sourceTree = "<group>"; };
 		3CB5416E2D3AD83D0024F80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3CB5416F2D3AD83D0024F80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CC347042D3C9E9C00FC18BA /* Extension + View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				3CB5416B2D3AD83D0024F80E /* LaunchScreen.storyboard */,
 				3CB5416E2D3AD83D0024F80E /* SceneDelegate.swift */,
 				3CB5416F2D3AD83D0024F80E /* ViewController.swift */,
+				3CC347042D3C9E9C00FC18BA /* Extension + View.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				3CB541782D3AD83D0024F80E /* DetailImageViewController.swift in Sources */,
 				3CB541792D3AD83D0024F80E /* ImageDataModel.swift in Sources */,
 				3CB5417A2D3AD83D0024F80E /* ImageDataTableViewCell.swift in Sources */,
+				3CC347052D3C9EA400FC18BA /* Extension + View.swift in Sources */,
 				3CB5417B2D3AD83D0024F80E /* ListImageViewController.swift in Sources */,
 				3CB5417C2D3AD83D0024F80E /* SceneDelegate.swift in Sources */,
 				3CB5417D2D3AD83D0024F80E /* ViewController.swift in Sources */,
